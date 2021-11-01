@@ -11,6 +11,8 @@ sap-product-master-sql には、sqlの設定ファイルとして以下のsqlフ
 * sap-product-master-sql-sales-plant-data.sql （SAP 品目マスタ - 販売プラントデータ）　　
 * sap-product-master-sql-sales-organization-data.sql （SAP 品目マスタ - 販売組織データ）
 * sap-product-master-sql-work-scheduling-data.sql　（SAP 品目マスタ - 作業計画データ）
+* sap-product-master-sql-accounting-data.sql  （SAP 品目マスタ - 会計データ）
+
 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
