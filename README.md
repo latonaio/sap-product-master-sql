@@ -10,7 +10,7 @@ sap-product-master-sql には、sqlの設定ファイルとして以下のsqlフ
 * sap-product-master-sql-procurement-data.sql （SAP 品目マスタ - 購買データ）　　
 * sap-product-master-sql-sales-plant-data.sql （SAP 品目マスタ - 販売プラントデータ）　　
 * sap-product-master-sql-sales-organization-data.sql
-
+* sap-product-master-sql-work-scheduling-data.sql 
 
 ## MySQLのセットアップ / Kubernetesの設定 / SQLテーブルの作成方法
 MySQLのセットアップ / Kubernetesの設定 / 具体的なSQLテーブルの作成方法、については、[mysql-kube](https://github.com/latonaio/mysql-kube)を参照ください。
