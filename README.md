@@ -5,6 +5,7 @@ sap-product-master-sql は、主にエッジアプリケーションにおいて
 sap-product-master-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
 
 * sap-product-master-sql-basic-data.sql  
+* sap-product-master-sql-plant-data.sql
 
 
 
