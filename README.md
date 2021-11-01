@@ -6,6 +6,8 @@ sap-product-master-sql には、sqlの設定ファイルとして以下のsqlフ
 
 * sap-product-master-sql-basic-data.sql  
 * sap-product-master-sql-plant-data.sql
+* sap-product-master-sql-mrp-area-data.sql 
+
 
 
 
