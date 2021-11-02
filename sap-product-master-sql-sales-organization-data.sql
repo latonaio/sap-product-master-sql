@@ -10,6 +10,7 @@ CREATE TABLE `sap-product-master-sales-organization-data`
     `SalesMeasureUnit`      varchar(3) DEFAULT NULL,
     `IsMarkedForDeletion`   varchar(1) DEFAULT NULL,
     `ProductHierarchy`      varchar(18) DEFAULT NULL,
-    PRIMARY KEY (`Product`),
+    PRIMARY KEY (`Product`, `ProductSalesOrg`, `ProductDistributionChnl`),
+    CONSTRAINT `Product_fk` FOREIGN KEY (`Product`) REFERENCES `sap-product-master-basic-data` (`Product`)
 ) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8;
+  DEFAULT CHARSET = utf8mb4;
