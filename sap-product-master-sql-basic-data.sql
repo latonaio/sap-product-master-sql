@@ -12,4 +12,4 @@ CREATE TABLE `sap-product-master-basic-data`
     `ProductStandardID`     varchar(18) DEFAULT NULL,
     PRIMARY KEY (`Product`),
 ) ENGINE = InnoDB
-  DEFAULT CHARSET = utf8;
+  DEFAULT CHARSET = utf8mb4;
