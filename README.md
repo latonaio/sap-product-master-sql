@@ -1,5 +1,6 @@
 # sap-product-master-sql  
-sap-product-master-sql は、主にエッジアプリケーションにおいて、SAPと連携された品目マスタデータを保存するSQLテーブルを作成するためのレポジトリです。
+sap-product-master-sql は、主にエッジアプリケーションにおいて、SAPと連携された品目マスタデータを保存するSQLテーブルを作成するためのレポジトリです。  
+sap-product-master-sql は、そのままクラウド環境におけるアプリケーションにも、適用可能です。  
 
 ## sqlの設定ファイル
 sap-product-master-sql には、sqlの設定ファイルとして以下のsqlファイルが含まれています。  
