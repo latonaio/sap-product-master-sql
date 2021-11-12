@@ -10,6 +10,6 @@ CREATE TABLE `sap-product-master-basic-data`
     `WeightUnit`            varchar(3) DEFAULT NULL,
     `SizeOrDimensionText`   varchar(32) DEFAULT NULL,
     `ProductStandardID`     varchar(18) DEFAULT NULL,
-    PRIMARY KEY (`Product`),
+    PRIMARY KEY (`Product`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
