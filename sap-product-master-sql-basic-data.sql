@@ -3,7 +3,7 @@ CREATE TABLE `sap-product-master-basic-data`
     `Product`               varchar(40) DEFAULT NULL,
     `Product_desc`          varchar(40) DEFAULT NULL,
     `BaseUnit`              varchar(3) DEFAULT NULL,
-    `ValidityStartDate`     varchar(8) DEFAULT NULL,
+    `ValidityStartDate`     date DEFAULT NULL,
     `ProductGroup`          varchar(9) DEFAULT NULL,
     `Division`              varchar(2) DEFAULT NULL,
     `GrossWeight`           varchar(13) DEFAULT NULL,

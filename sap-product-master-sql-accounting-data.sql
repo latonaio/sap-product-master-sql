@@ -6,7 +6,7 @@ CREATE TABLE `sap-product-master-accounting-data`
     `StandardPrice`         varchar(11) DEFAULT NULL,
     `PriceUnitQty`          varchar(5) DEFAULT NULL,
     `MovingAveragePrice`    varchar(11) DEFAULT NULL,
-    `PriceLastChangeDate`   varchar(8) DEFAULT NULL,
+    `PriceLastChangeDate`   date DEFAULT NULL,
     `PlannedPrice`          varchar(11) DEFAULT NULL,
     `IsMarkedForDeletion`   bool DEFAULT NULL,
     PRIMARY KEY (`Product`, `ValuationArea`),
