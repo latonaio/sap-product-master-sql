@@ -6,8 +6,8 @@ CREATE TABLE `sap-product-master-work-scheduling-data`
     `ProductProcessingTime`         int(3) DEFAULT NULL,
     `ProductionSupervisor`          varchar(3) DEFAULT NULL,
     `ProductProductionQuantityUnit` varchar(3) DEFAULT NULL,
-    `ProdnOrderIsBatchRequired`     tinyint(1) DEFAULT NULL,
-    `MatlCompIsMarkedForBackflush`  tinyint(1) DEFAULT NULL,
+    `ProdnOrderIsBatchRequired`     varchar(1) DEFAULT NULL,
+    `MatlCompIsMarkedForBackflush`  varchar(1) DEFAULT NULL,
     `ProductionSchedulingProfile`   varchar(6) DEFAULT NULL,
     PRIMARY KEY (`Product`, `Plant`),
     CONSTRAINT `Product_fk` FOREIGN KEY (`Product`) REFERENCES `sap-product-master-basic-data` (`Product`)
