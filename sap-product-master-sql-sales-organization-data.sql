@@ -9,7 +9,7 @@ CREATE TABLE `sap-product-master-sales-organization-data`
     `ItemCategoryGroup`              varchar(4) DEFAULT NULL,
     `SalesMeasureUnit`               varchar(3) DEFAULT NULL,
     `ProductHierarchy`               varchar(18) DEFAULT NULL,
-    `IsMarkedForDeletion`            bool DEFAULT NULL,
+    `IsMarkedForDeletion`            tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`Product`, `ProductSalesOrg`, `ProductDistributionChnl`),
     CONSTRAINT `Product_fk` FOREIGN KEY (`Product`) REFERENCES `sap-product-master-basic-data` (`Product`)
 ) ENGINE = InnoDB

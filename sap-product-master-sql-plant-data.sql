@@ -12,13 +12,13 @@ CREATE TABLE `sap-product-master-plant-data`
     `MinimumLotSizeQuantity` varchar(13) DEFAULT NULL,
     `MaximumLotSizeQuantity` varchar(13) DEFAULT NULL,
     `FixedLotSizeQuantity`   varchar(13) DEFAULT NULL,
-    `IsBatchManagementRequired` bool DEFAULT NULL,
+    `IsBatchManagementRequired` tinyint(1) DEFAULT NULL,
     `ProcurementType`       varchar(1) DEFAULT NULL,
-    `IsInternalBatchManaged` bool DEFAULT NULL,
+    `IsInternalBatchManaged` tinyint(1) DEFAULT NULL,
     `GoodsIssueUnit`        varchar(3) DEFAULT NULL,
     `MaterialFreightGroup`  varchar(4) DEFAULT NULL,
     `ProductLogisticsHandlingGroup` varchar(4) DEFAULT NULL,
-    `IsMarkedForDeletion`   bool DEFAULT NULL,
+    `IsMarkedForDeletion`   tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`Product`, `Plant`),
     CONSTRAINT `Product_fk` FOREIGN KEY (`Product`) REFERENCES `sap-product-master-basic-data` (`Product`)
 ) ENGINE = InnoDB

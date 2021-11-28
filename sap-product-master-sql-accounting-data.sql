@@ -8,7 +8,7 @@ CREATE TABLE `sap-product-master-accounting-data`
     `MovingAveragePrice`    varchar(11) DEFAULT NULL,
     `PriceLastChangeDate`   date DEFAULT NULL,
     `PlannedPrice`          varchar(11) DEFAULT NULL,
-    `IsMarkedForDeletion`   bool DEFAULT NULL,
+    `IsMarkedForDeletion`   tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`Product`, `ValuationArea`),
     CONSTRAINT `Product_fk` FOREIGN KEY (`Product`) REFERENCES `sap-product-master-basic-data` (`Product`)
 ) ENGINE = InnoDB
