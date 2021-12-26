@@ -1,8 +1,8 @@
-CREATE TABLE `sap-product-master-sales-organization-data`
+CREATE TABLE `sap_product_master_sales_organization_data`
 (
-    `Product`                        varchar(40) DEFAULT NULL,
-    `ProductSalesOrg`                varchar(4) DEFAULT NULL,
-    `ProductDistributionChnl`        varchar(2) DEFAULT NULL,
+    `Product`                        varchar(40) NOT NULL,
+    `ProductSalesOrg`                varchar(4) NOT NULL,
+    `ProductDistributionChnl`        varchar(2) NOT NULL,
     `SupplyingPlant`                 varchar(4) DEFAULT NULL,
     `PriceSpecificationProductGroup` varchar(2) DEFAULT NULL,
     `AccountDetnProductGroup`        varchar(2) DEFAULT NULL,
@@ -11,6 +11,6 @@ CREATE TABLE `sap-product-master-sales-organization-data`
     `ProductHierarchy`               varchar(18) DEFAULT NULL,
     `IsMarkedForDeletion`            tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`Product`, `ProductSalesOrg`, `ProductDistributionChnl`),
-    CONSTRAINT `Product_fk` FOREIGN KEY (`Product`) REFERENCES `sap-product-master-basic-data` (`Product`)
+    CONSTRAINT `SAPProductMasterSalesOrganizationData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_basic_data` (`Product`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;

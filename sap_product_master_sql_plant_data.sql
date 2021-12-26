@@ -1,7 +1,7 @@
-CREATE TABLE `sap-product-master-plant-data`
+CREATE TABLE `sap_product_master_plant_data`
 (
-    `Product`               varchar(40) DEFAULT NULL,
-    `Plant`                 varchar(4) DEFAULT NULL,
+    `Product`               varchar(40) NOT NULL,
+    `Plant`                 varchar(4) NOT NULL,
     `PurchasingGroup`       varchar(3) DEFAULT NULL,
     `ProductionInvtryManagedLoc` varchar(4) DEFAULT NULL,
     `AvailabilityCheckType` varchar(2) DEFAULT NULL,
@@ -20,6 +20,6 @@ CREATE TABLE `sap-product-master-plant-data`
     `ProductLogisticsHandlingGroup` varchar(4) DEFAULT NULL,
     `IsMarkedForDeletion`   tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`Product`, `Plant`),
-    CONSTRAINT `Product_fk` FOREIGN KEY (`Product`) REFERENCES `sap-product-master-basic-data` (`Product`)
+    CONSTRAINT `SAPProductMasterPlantData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_basic_data` (`Product`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
