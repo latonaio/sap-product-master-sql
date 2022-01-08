@@ -2,7 +2,7 @@ CREATE TABLE `sap_product_master_general_data`
 (
     `Product`               varchar(40) NOT NULL,
     `IndustrySector`        varchar(1) DEFAULT NULL,
-    `ProductType`           varchar(1) DEFAULT NULL,
+    `ProductType`           varchar(4) DEFAULT NULL,
     `BaseUnit`              varchar(3) DEFAULT NULL,
     `ValidityStartDate`     varchar(80) DEFAULT NULL,
     `ProductGroup`          varchar(9) DEFAULT NULL,
