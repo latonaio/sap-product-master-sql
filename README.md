@@ -16,10 +16,11 @@ sap_product_master_sql には、sql の設定ファイルとして以下の sql 
 - sap_product_master_sql_general_data.sql（SAP 品目マスタ - 基本データ）
 - sap_product_master_sql_plant_data.sql（SAP 品目マスタ - プラントデータ）
 - sap_product_master_sql_mrp_area_data.sql （SAP 品目マスタ - MRP エリアデータ）
-- sap_product_master_sql_procurement_data.sql （SAP 品目マスタ - 購買データ）
-- sap_product_master_sql_sales_plant_data.sql （SAP 品目マスタ - 販売プラントデータ）
-- sap_product_master_sql_sales_organization_data.sql （SAP 品目マスタ - 販売組織データ）
-- sap_product_master_sql_work_scheduling_data.sql 　（SAP 品目マスタ - 作業計画データ）
+- sap_product_master_sql_procurement_data.sql（SAP 品目マスタ - 購買データ）
+- sap_product_master_sql_sales_plant_data.sql（SAP 品目マスタ - 販売プラントデータ）
+- sap_product_master_sql_sales_organization_data.sql（SAP 品目マスタ - 販売組織データ）
+- sap_product_master_sql_work_scheduling_data.sql（SAP 品目マスタ - 作業計画データ）
+- sap_product_master_sql_quality_data.sql（SAP 品目マスタ - 品質管理データ）
 - sap_product_master_sql_accounting_data.sql （SAP 品目マスタ - 会計データ）
 - sap_product_master_sql_product_description_data.sql（SAP 品目マスタ - 品目テキストデータ）
 
