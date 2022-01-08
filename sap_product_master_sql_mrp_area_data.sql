@@ -23,6 +23,6 @@ CREATE TABLE `sap_product_master_mrp_area_data`
     `StorageLocation`       varchar(4) DEFAULT NULL,
     `IsMarkedForDeletion`   tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`Product`, `Plant`, `MRPArea`),
-    CONSTRAINT `SAPProductMasterMRPAreaData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_basic_data` (`Product`)
+    CONSTRAINT `SAPProductMasterMRPAreaData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_general_data` (`Product`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;

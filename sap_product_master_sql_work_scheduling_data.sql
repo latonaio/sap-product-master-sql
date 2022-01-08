@@ -10,6 +10,6 @@ CREATE TABLE `sap_product_master_work_scheduling_data`
     `MatlCompIsMarkedForBackflush`  varchar(1) DEFAULT NULL,
     `ProductionSchedulingProfile`   varchar(6) DEFAULT NULL,
     PRIMARY KEY (`Product`, `Plant`),
-    CONSTRAINT `SAPProductMasterWorkSchedulingData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_basic_data` (`Product`)
+    CONSTRAINT `SAPProductMasterWorkSchedulingData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_general_data` (`Product`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;

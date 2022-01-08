@@ -20,6 +20,6 @@ CREATE TABLE `sap_product_master_plant_data`
     `ProductLogisticsHandlingGroup` varchar(4) DEFAULT NULL,
     `IsMarkedForDeletion`   tinyint(1) DEFAULT NULL,
     PRIMARY KEY (`Product`, `Plant`),
-    CONSTRAINT `SAPProductMasterPlantData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_basic_data` (`Product`)
+    CONSTRAINT `SAPProductMasterPlantData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_general_data` (`Product`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;

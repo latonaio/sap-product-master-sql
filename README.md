@@ -13,7 +13,7 @@ https://api.sap.com/api/OP_API_PRODUCT_SRV_0001/overview
 
 sap_product_master_sql には、sql の設定ファイルとして以下の sql ファイルが含まれています。
 
-- sap_product_master_sql_basic_data.sql（SAP 品目マスタ - 基本データ）
+- sap_product_master_sql_general_data.sql（SAP 品目マスタ - 基本データ）
 - sap_product_master_sql_plant_data.sql（SAP 品目マスタ - プラントデータ）
 - sap_product_master_sql_mrp_area_data.sql （SAP 品目マスタ - MRP エリアデータ）
 - sap_product_master_sql_procurement_data.sql （SAP 品目マスタ - 購買データ）
