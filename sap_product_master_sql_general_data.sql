@@ -5,6 +5,7 @@ CREATE TABLE `sap_product_master_general_data`
     `ProductType`           varchar(4) DEFAULT NULL,
     `BaseUnit`              varchar(3) DEFAULT NULL,
     `ValidityStartDate`     varchar(80) DEFAULT NULL,
+    `ValidityEndDate`     varchar(80) DEFAULT NULL,
     `ProductGroup`          varchar(9) DEFAULT NULL,
     `Division`              varchar(2) DEFAULT NULL,
     `GrossWeight`           varchar(13) DEFAULT NULL,
