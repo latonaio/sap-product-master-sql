@@ -6,7 +6,7 @@ sap-product-master-sql は、そのままクラウド環境におけるアプリ
 ## 前提条件
 
 sap-product-master-sql は、SQL の SAP との データ連携にあたり、API を利用し、本レポジトリ の sql 設定ファイルの内容は、下記 URL の API 仕様を前提としています。
-https://api.XXXXXXXX.com/api/OP_API_XXXXXXX_XXX/overview  
+https://api.sap.com/api/OP_API_PRODUCT_SRV_0001/overview  
 
 ## sql の設定ファイル
 
@@ -14,6 +14,7 @@ sap-product-master-sql には、sql の設定ファイルとして以下の sql 
 
 * sap-product-master-sql-general-data.sql（SAP 品目マスタ - 基本データ）
 * sap-product-master-sql-plant-data.sql（SAP 品目マスタ - プラントデータ）
+* sap-product-master-sql-storage-location-data.sql（SAP 品目マスタ - プラントデータ）
 * sap-product-master-sql-mrp-area-data.sql （SAP 品目マスタ - MRP エリアデータ）
 * sap-product-master-sql-procurement-data.sql（SAP 品目マスタ - 購買データ）
 * sap-product-master-sql-sales-plant-data.sql（SAP 品目マスタ - 販売プラントデータ）
