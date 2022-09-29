@@ -14,7 +14,7 @@ sap-product-master-sql には、sql の設定ファイルとして以下の sql 
 
 * sap-product-master-sql-general-data.sql（SAP 品目マスタ - 基本データ）
 * sap-product-master-sql-plant-data.sql（SAP 品目マスタ - プラントデータ）
-* sap-product-master-sql-storage-location-data.sql（SAP 品目マスタ - プラントデータ）
+* sap-product-master-sql-storage-location-data.sql（SAP 品目マスタ - 保管場所データ）
 * sap-product-master-sql-mrp-area-data.sql （SAP 品目マスタ - MRP エリアデータ）
 * sap-product-master-sql-procurement-data.sql（SAP 品目マスタ - 購買データ）
 * sap-product-master-sql-sales-plant-data.sql（SAP 品目マスタ - 販売プラントデータ）
