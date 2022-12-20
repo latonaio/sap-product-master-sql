@@ -4,7 +4,7 @@ CREATE TABLE `sap_product_master_mrp_area_data`
     `Plant`                 varchar(4) NOT NULL,
     `MRPArea`               varchar(10) NOT NULL,
     `MRPType`               varchar(2) DEFAULT NULL,
-    `MRPResponsible`        varchar(3) DEFAULT NULL,
+    `MRPController`         varchar(3) DEFAULT NULL,
     `MRPGroup`              varchar(4) DEFAULT NULL,
     `ReorderThresholdQuantity` varchar(13) DEFAULT NULL,
     `PlanningTimeFence`     varchar(3) DEFAULT NULL,

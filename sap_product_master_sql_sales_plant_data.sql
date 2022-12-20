@@ -5,6 +5,6 @@ CREATE TABLE `sap_product_master_sales_plant_data`
     `LoadingGroup`            varchar(4) DEFAULT NULL,
     `AvailabilityCheckType`   varchar(2) DEFAULT NULL,
     PRIMARY KEY (`Product`, `Plant`),
-    CONSTRAINT `SAPProductMasterSalesPlantData_fk` FOREIGN KEY (`Product`) REFERENCES `sap_product_master_general_data` (`Product`)
+    CONSTRAINT `SAPProductMasterSalesPlantData_fk` FOREIGN KEY (`Product`, `Plant`) REFERENCES `sap_product_master_plant_data` (`Product`, `Plant`)
 ) ENGINE = InnoDB
   DEFAULT CHARSET = utf8mb4;
